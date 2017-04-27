@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="read-more row">
+  <div class="col-sm-10 col-sm-offset-1">
+    {% for post in site.related_posts limit:1 %}
+      <div class="read-more-header">
+        <a href="{{ site.url }}{{ page.previous.url }}" class="btn btn-success">Further Reading</a>
+      </div><!-- /.read-more-header -->
+      <div class="read-more-content">
+        <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+      </div><!-- /.read-more-content -->
+    {% endfor %}
+    </div>
+  </div><!-- /.read-more -->
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm6"></div>
+    <div class="col-sm6"></div>
+  </div>
+</div>

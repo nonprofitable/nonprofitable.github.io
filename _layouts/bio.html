@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" class="post">
+  {% include nav.html %}
+
+  {% if page.image.feature %}
+  <div class="post-header">
+    {% if page.image.credit %}<div class="image-credit">Image credit: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
+    <div class="post-header-image">
+      <img src="/img/{{ page.image.feature }}" alt="{{ page.title }}">
+    </div><!-- /.entry-image -->
+  </div><!-- /.entry-header -->
+  {% endif %}
+
+  <header class="header-title">
+    <div class="header-title-wrap">
+      {% if page.link %}
+        <h1 class="post-main-title"><i class="fa fa-bookmark permalink"></i> <a href="{{ page.link }}">{{ page.title }}</a></h1>
+      {% else %}
+        <h1 class="post-main-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+      {% endif %}
+      {% if page.type == "page" %}
+        {% if page.description %}
+          <h3 class="header-description">{{ page.description }}</h3>
+        {% endif %}
+      {% endif %}
+
+      {% if page.type != "page" %}
+        <p><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span>
+      {% endif %}
+      {% if site.reading_time %}
+        {% if page.type != "page" %}
+          <span class="entry-reading-time">
+            <i class="fa fa-clock-o"></i>
+            {% include read-time.html %}
+          </span><!-- /.entry-reading-time -->
+        {% endif %}  
+      {% endif %}
+      </p>
+    </div><!-- /.header-title-wrap -->
+  </header>
+
+  <div class="container main-content">
+    <div class="row">
+
+      <!-- Main content body -->
+      <div class="col-sm-10 col-sm-offset-1">
+        {% for tag in page.tags %}
+          {% if tag == "Tutorials" %}
+            <a class="tutorial-flag btn btn-success" href ="/tutorials">Tutorial</a>
+          {% endif %}
+        {% endfor %}
+
+        {% if page.type != "page" %}
+          {% if page.description %}
+            <blockquote class="post-description">{{ page.description }}</blockquote>
+          {% endif %}
+        {% endif %}
+        
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+  
+
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+
+</html>

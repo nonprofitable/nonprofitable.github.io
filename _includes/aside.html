@@ -1,0 +1,39 @@
+  <aside class="bg-dark">
+      <div class="container">
+          <div class="call-to-action">
+              
+            <div class="row">
+                <div class="col-sm-6">
+                  <h2>Latest Writing</h2>
+                  <ul class="entries">
+                  {% for post in site.posts limit:1 %}
+                    <li>
+                      <a href="{{ post.url }}">
+                      <h3>{{ post.title }}</h3>
+                      <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+                      <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+                      </a>
+                    </li>
+                  {% endfor %}
+                  </ul>  
+                </div>
+
+                <div class="col-sm-6">
+                  <h2>RTFM</h2>
+                  <p>Tutorials, missing docs, and guides.</p>
+                  <ul class="entries">
+                  {% for post in site.posts limit:1 %}
+                    <li>
+                      <a href="{{ post.url }}">
+                      <h3>{{ post.title }}</h3>
+                      <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+                      <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+                      </a>
+                    </li>
+                  {% endfor %}  
+                </div>
+            </div> 
+              
+          </div>
+      </div>
+  </aside>

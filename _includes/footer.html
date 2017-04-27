@@ -1,0 +1,81 @@
+  <footer id="contact" class="bg-dark">
+	  <div class="container">
+	      <div class="row">
+		    	<div class="col-sm-4">
+		      	<h4>Writing</h4>
+
+		      	      	<ul class="footer-menu list-unstyled">
+		      				{% assign counter_string = "" %}
+
+			      				{% for post in site.posts %}
+			      					{%  assign tutorial = false %}
+									{% for tag in post.tags %}
+										{%  if tag == "Tutorials" %}
+											{% assign tutorial = true %}
+										{% endif %}
+									{% endfor %}
+	 
+				      				{% unless tutorial == true %}
+					      			  	<li>
+					      			    		<a href="{{ post.url }}">
+					      			    		<h4>{{ post.title }}</h4>
+					      			    		</a>
+					      			  	</li>
+
+					      			  	<!-- I'm sorry. -->
+					      			  	{% capture temp %}{{ counter_string }}*{% endcapture %}
+					      			  	{% assign counter_string = temp %}
+					      			  	{% assign counter = counter_string.size %}
+
+				      			  	{% endunless %}
+				      			  	{% if counter >= 5 %}
+				      			  	{% break %}
+				      			  	{% endif %}
+			      				{% endfor %}
+		      	      	</ul>	
+
+
+		    	</div>
+			<div class="col-sm-4">
+		      	<h4>Tutorials</h4>
+		      	<ul class="footer-menu list-unstyled">
+					{% for post in site.tags.Tutorials limit:5 %}
+				  	<li>
+				    		<a href="{{ post.url }}">
+				    		<h4>{{ post.title }}</h4>
+				    		</a>
+				  	</li>
+					{% endfor %}	
+		      	</ul>	
+		    	</div>
+		    	<div class="col-sm-4">
+		    		<div class="footer-icons">
+						  <a href="https://facebook.com/{{ site.facebook_profile }}">
+						  <i class="fa fa-facebook fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+						  </a>
+						  <a href="mailto:{{ site.email }}">
+						  <i class="fa fa-envelope-o fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+						  </a>
+						  <a href="https://github.com/{{ site.github_username }}">
+						  <i class="fa fa-github fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+						  </a>
+						  <a href="https://twitter.com/{{ site.twitter_username }}">
+						      <i class="fa fa-twitter fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+						  </a>
+						  <a href="https://{{ site.linkedin_url }}">
+						  <i class="fa fa-linkedin fa-2x wow bounceIn" data-wow-delay=".1s"></i>
+						  </a>
+					</div>
+					<div class="phone">
+						<i class="fa fa-phone" aria-hidden="true"></i> US: +1 (262) 2DR-UPAL <br />
+						<i class="fa fa-phone" aria-hidden="true"></i> India: +91 905 158 4089
+					</div>
+					<div class="site-credits">
+						<p class="text-faded">&copy; 2017 Nonprofitable.org</p>
+						<p class="text-faded">Terms | Privacy</p>
+					</div>
+
+		    	</div>
+	      </div>
+	  </div>
+  </footer>
