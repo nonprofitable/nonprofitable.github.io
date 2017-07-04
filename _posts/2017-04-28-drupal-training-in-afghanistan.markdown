@@ -3,14 +3,14 @@ layout:     post
 title:      "Drupal Training in Afghanistan"
 subtitle:   ""
 date:       2017-04-28
-tag: 		[Drupal, training, Afghanistan]
+tag: 		[Drupal, Training, Afghanistan]
 permalink: "/drupal-training-in-Afghanistan/"
 description: "I'm currently in Afghanistan, handling training and mentoring operations for 11 university websites and the Afghan Ministry of Higher Education."
 image:
   feature: drupal-training-in-afghanistan.jpg
 ---
 
-I'm now halfway through a training engagement in Afghanistan, teaching IT officers from several universities how to administer and manage their Drupal infrastructure. The projects were developed by the Techlab team at FHI360, an international development organization, as part of the five year USAID-funded [University Support and Workforce Development Program (USWDP)] (https://www.fhi360.org/projects/university-support-and-workforce-development-program).
+I'm now halfway through a training engagement teaching IT teams from several universities how to administer and manage their Drupal infrastructure. The projects were developed by the Techlab team at FHI360, an international development organization, as part of the five year USAID-funded [University Support and Workforce Development Program](https://www.fhi360.org/projects/university-support-and-workforce-development-program).
 
 ## Training Goals
 
@@ -20,7 +20,11 @@ My objective here is capacity development; the primary goal is to train local te
 
 ## Lesson Planning
 
-As I've done with similar training engagements in India in the past, I've structured most of each class as hands-on time, with attendees building things on their testing sites. This allows me to spend as much time as possible walking around the room, looking over their shoulders, and offering one-on-one or one-on-three mentoring as needed, based on where they're getting stuck. I demo something on the projector (once I persuade the HDMI dongle to work for a while), answer initial questions, and then have them build something similar on their own, breaking into groups as needed. 
+As I've done with similar training engagements in India in the past, I've structured most of each class as hands-on time, with attendees building things on their testing sites. This allows me to spend as much time as possible walking around the room, looking over their shoulders, and offering one-on-one or one-on-three mentoring as needed, based on where they're getting stuck. I demo something on the projector (once I persuade the HDMI dongle to work for a while), answer initial questions, and then have them build something similar on their own, breaking into groups as needed.
+
+>I've found the Samsung Chromebook Plus to be an unexpectedly appropriate teaching tool in classroom settings. Even under bright tubelights, the screen is painfully bright if the display brightness is set above 70% or so, the battery life is adequate (though not as good as my Macbook Air), and I frequently find myself holding it in one arm in tablet mode as I walk around the class, either using it to demo something or to accomplish quick tasks while walking / standing (like assigning Drupal permissions for a new content type a participant is working on). It is **extremely** difficult to switch back to the Macbook Air's display once you get used to the high density display on the Chromebook Plus. 
+
+Update: Since I've gotten a couple of questions on this and on using Chromebooks for this kind of work in general (this is my second), I wrote a more detailed [Samsung Chromebook Plus field test](/afghanistan-samsung-chromebook-plus) based on my experiences in Afghanistan.
 
 ## Lessons From Afghanistan
 
@@ -28,7 +32,7 @@ Kabul is breathtakingly beautiful.
 
 <figure>
   <img src="/img/afghanistan-ministry-higher-education.jpg" alt="Ministry of Higher Education, Kabul, Afghanistan.">
-  <figcaption>Walking with my class through the park-like Ministry of Higher Education complex, it's easy to forget we're in the middle of Afghanistan's largest city. This was where the two sides used to meet to discuss a possible truce, so both sides agreed not to shell it.</figcaption>
+  <figcaption>Walking with my class through the park-like Ministry of Higher Education (MoHE) complex, it's easy to forget we're in the middle of Afghanistan's largest city. This was where the two sides used to meet to discuss a possible truce, so both sides agreed not to shell it.</figcaption>
 </figure>
 
 I'm currently at the end of the classroom training component for this project, and taking the weekend (which is Thursday and Friday here) off before beginning the second phase, where I'll be doing one-on-one mentoring for the Afghan consultant who'll be playing an ongoing support role for the attendees of my previous class. 
@@ -49,10 +53,12 @@ For this class, I'd had participants using one common staging website with a com
 
 On the other hand, at least they've learned how to manage Drupal users, roles, and permissions fairly well.
 
+## Mentorship And Capacity Building
+
+My contract with the USWDP project was extended after I arrived in Afghanistan to include a further week of mentorship, capacity building, and infrastructure assistance, including the installation of Afghanistan's first hypervisor in the Ministry of Higher Education's new server room. I spent most of the week in one-on-one sessions with Zaman, the USWDP technical consultant and CMS trainer. We focused on identifying potential problem areas with ongoing support for these university projects, developed strategies to ensure long-term sustainability, and reviewed a couple of the more complex Drupal administration topics that trainees may have follow-up questions on.
+
 <figure>
   <img src="/img/sunrise-kabul.jpg" alt="Sunrise in Kabul.">
   <figcaption>Kabul is such a beautiful city, filled with people working to rebuild their country, incredible food, and breathtaking mountain sunrises. I'd love to see more of it. </figcaption>
 </figure>
-
-
 
