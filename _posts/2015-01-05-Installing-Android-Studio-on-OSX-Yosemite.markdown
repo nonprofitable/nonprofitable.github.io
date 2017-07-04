@@ -19,10 +19,10 @@ Start with Studio itself, which you can download from the <a href="http://develo
 
 This installs, but fails to launch with an error because it can't find Java. This is not surprising. 
 
-<img class="img-reponsive" src="{{ site.baseurl }}/images/java-yosemite-meme.jpg" alt="Meme: One does not simply install the right version of Java." /> 
-
-<span class="caption text-muted">Seal Team 6 couldn't find the right version of Java on the first try.</span>
-
+<figure>
+  <img src="/img/java-yosemite-meme.jpg" alt="Meme: One does not simply install the right version of Java."
+  <figcaption>Seal Team 6 couldn't find the right version of Java on the first try.</figcaption>
+</figure>
 
 <h2 class="section-heading">Get Java, Round 1</h2>
 

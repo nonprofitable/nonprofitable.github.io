@@ -12,18 +12,18 @@ image:
 
 <p>Every accidental techie in the nonprofit sector tasked with selecting a hosting provider has been buried under promises of unlimited domains, unlimited email accounts, and unlimited random-techy-sounding-things, all for the low, low price of $2.99 a month.</p>
 
-<h2 class="section-heading">Want fries with that?</h2>
+## Want fries with that?
 
 <p>The inevitable spawn of high-volume, low-margin sales strategy and craptacular infrastructure, shared hosting resembles your last regretable cheeseburger in unfortunate ways. The burger chains built cheaper and cheaper mass-produced junk masquerading as a burger, polished those turds till they shone on the TV ads, and found themselves locked in a price spiral to the bottom.</p>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/nonprofit-hosting.gif" alt="Meme: Animated illustration of Bilbo turning Gandalf down at the start of a quest." />
+  <img src="/img/nonprofit-hosting.gif" alt="Meme: Animated illustration of Bilbo turning Gandalf down at the start of a quest." />
   <figcaption>Bilbo, if we sign up now they'll give us unlimited databases.</figcaption>
 </figure>
  
 <p>You know you should know better, you don't fully understand what it's doing to you, and you realize you're going to regret it afterwards ...but somehow <em>you still end up ordering it</em>.</p>
 
-<h2 class="section-heading">Friends don't let friends share hosting.</h2>
+## Friends don't let friends share hosting.
 
 <p>Like needles and underwear, sharing hosting poses very few benefits and quite a lot of risk, none of which may be apparent at first glance.</p>
 
@@ -35,7 +35,7 @@ image:
 	<li>Your consultants can't standardize their rollout and deployment for projects, because every shared hosting company is different. Each project involves manual setup, with little or no automation. This means we also can't automate other parts of your project, some of which are really important (like your website backups, or disaster recovery processes if you're hacked).</li>
 </ul>
 
-<h2 class="section-heading">But...but...but...99 cents?</h2>
+## But...but...but...99 cents?
 
 <p>There's a bigger story to pricing your el cheapo web hosting that isn't in the sales pitch. Sure, the cheeseburger sounds cheap, but Americans go through years of dieting, workouts, liposuction, and sometimes death as a result of obesity every year.</p>
 

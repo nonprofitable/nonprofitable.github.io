@@ -29,7 +29,7 @@ Once it's enabled, click on Other > Enable split-screen swipe-up gesture.
 That's pretty much it. Open your first app, then swipe up from the bottom right icon (the one that tiles your open apps), and you're in split screen view. In landscape mode, I sometimes had to swipe the screen over to the left after that to see the app switcher to select the second app. Launching split screen with a long press on the icon (instead of the swipe gesture you just enabled) sometimes had this problem, too. 
 
 <figure>
-  <img src="/images/screenshot-split-screen-androidn-nexus9.jpg" alt="Screenshot: split screens in Android N on the Nexus 9.">
+  <img src="/img/screenshot-split-screen-androidn-nexus9.jpg" alt="Screenshot: split screens in Android N on the Nexus 9.">
   <figcaption>Note the split-screeny icon instead of the usual rectangle. Yay. Can we finally write some code on this thing now?</figcaption>
 </figure>
 

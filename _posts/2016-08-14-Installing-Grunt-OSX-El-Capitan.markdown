@@ -16,7 +16,7 @@ image:
 
 This is where most folks having problems following the docs seem to get stuck; wherever you start from, you're making some assumptions about the tools in the stack available to you (and their versions). 
 
-<strong>It is a very good idea to take the time to install and learn the basic use of the tools everyone else is using.</strong> This (currently) means that most of the tutorials you learn from online will assume you have Homebrew installed, which assumes you have Ruby installed (possibly using RVM if you're also learning / authoring Ruby on this machine). Even if you're never going to write Ruby in your life, it's worth having and using Ruby and Homebrew, if for no other reason than that you won't have to keep asking questions on Stack Overflow when you're following documentation that starts with "Brew something". 
+<strong>It is a very good idea to take the time to install and learn the basic use of the tools everyone else is using.</strong> This (currently) means that most of the tutorials you learn from online will assume you have Homebrew installed, which assumes you have Ruby installed (possibly using RVM if you're also learning / authoring Ruby on this machine). Even if you're never going to write Ruby in your life, it's worth having and using Ruby and Homebrew, if for no other reason than that you won't have to keep asking questions on Stack Overflow when you're following documentation that starts with "Brew (something)". 
 
 If you already have a working Node / NPM install, you can skip ahead. Otherwise, you'll need the latest version of Node and NPM. This is also a good time to run "brew update" if you haven't done that today, and wait for it to do its thing. 
 

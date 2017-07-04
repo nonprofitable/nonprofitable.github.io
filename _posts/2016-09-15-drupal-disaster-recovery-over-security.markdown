@@ -33,7 +33,7 @@ In that light, it's sheer hubris that we've managed to brand security so powerfu
 This starts to change if we begin, as Netflix does, with the perspective that security is always an arms race, and that it will inevitably fail. Instead of asking how we can prevent entropy, we accept that infrastructure can fail in unexpected ways, often, and with unpredictable consequences. This leads to what is (or should be) a far more important question: what do we do when we fail?
 
 <figure>
-	<img src="/images/drupal-site-down.gif" alt="">
+	<img src="/img/drupal-site-down.gif" alt="">
 	<figcaption>Handling client calls when Drupal's down. (Image source: Devops Reactions)</figcaption>
 </figure>
 

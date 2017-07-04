@@ -40,7 +40,9 @@ So there are a ton of good reasons everyone's using Drupal, and quite a few reas
 
 To start with, I decided to treat <em>myself</em> as a consulting client. When most web developers build their own sites, we gleefully crank away on code and design (sometimes, we even write content!), bathed in the sublime joy of Having No Client. This means we get to skip a lot of client managery stuff. Beginning by analyzing our own requirements the way we analyze a client's is an important shift.
 
-For one thing, it led me to question a lot of the underlying assumptions in a CMS solution. How useful is the database backend to me, really? Do I really need to handle comments locally? Do I really need a WYSIWYG editor? Do I need one badly enough to handle a CMS platform's maintenance / security overhead? In short, am I at all like my clients when it comes to CMS requirements? If not, is Drupal even a good fit?
+For one thing, it led me to question a lot of the underlying assumptions in a CMS solution. How useful is the database backend to me, really? Do I need to handle comments locally? Do I need a WYSIWYG editor? Do I need one badly enough to handle a CMS platform's maintenance / security overhead? 
+
+In short, am I at all like my clients when it comes to CMS requirements? If not, is Drupal even a good fit?
 
 <figure>
   <img src="https://cdn.meme.am/instances/500x/65250608.jpg" alt="TinyMCE meme.">

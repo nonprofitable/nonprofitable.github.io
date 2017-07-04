@@ -11,7 +11,7 @@ image:
 
 <p>Uber's launch in major Indian cities is turning into a textbook model both for disruptive technology and in predicting conventional (and a few unconventional) responses to it. Uber (and a competitor, Lyft) took off in most US cities after I left to travel through India in 2011, so I've been watching from afar as that particular business model has evolved into one of the most controversial new technology buzzwords of the current tech startup ecosystem. With Uber's recent entrance in the Indian market and a very rapid growth model over the past year, there's a lot to learn.</p>
 
-<h2 class="section-heading">Becoming Indian</h2>
+## Becoming Indian
 
 <p>Out of the gate, Uber had already adapted their model. Unlike the US Uber, where one of their main competitive (and most controversial) disruptions was the use of private, <strong>non-commercial</strong> vehicles, Indian Ubers are all commercially plated. This is because commercial vehicles in India are much easier to register and insure than their counterparts in the US, so there's not much to be gained from using private vehicles...other than a boatload of legal trouble, which Uber is already facing elsewhere. Not much point picking that fight in India.</p>
 
@@ -19,14 +19,16 @@ image:
 
 <p>The Calcutta taxi itself is the venerable Ambassador, that cockroach of the motoring world. It has no interest in your air conditioning needs.</p>
 
-<img class="img-responsive" src="{{ site.baseurl }}/images/calcutta-taxi-uber.jpg" alt="A Calcutta yellow taxi, Uber's main competitor in India.">
-<span class="caption text-muted">That asteroid that caused the Cretaceous mass extinction? This is what it was aimed at. (Image credit: Team BHP)</span>
+<figure>
+  <img src="/img/calcutta-taxi-uber.jpg" alt="A Calcutta yellow taxi, Uber's initial competitor in India.">
+  <figcaption>That asteroid that caused the Cretaceous mass extinction? This is what it was aimed at. (Image credit: Team BHP).</figcaption>
+</figure>
 
 <p>Wow. Now that I've written all of that out, that's a pretty long list of gripes.</p>
 
 <p>Uber's USP in India is that it addressed <em>every one of those issues</em> as soon as they launched. Seriously. If you live in India and are used to taxis here, having a taxi platform where drivers never say no, never extort higher fares, and have names / licenses / license plate numbers on file for safety, with a GPS-based mapping system (Google maps!) in a brand-new, air-conditioned car and no way to tamper with the metered fare? This is revolutionary.</p>
 
-<h2 class="section-heading">The Empire Strikes Back</h2>
+## The Empire Strikes Back
 
 <p>Predictably, Uber's taking some heat on several fronts.</p>
 

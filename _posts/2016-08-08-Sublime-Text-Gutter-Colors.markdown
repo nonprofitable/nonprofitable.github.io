@@ -12,11 +12,12 @@ image:
 
 <p>You're really going to wish you'd done this sooner if you write a lot of front-end code. (Give it a shot even if you're new to terminal stuff). Quick OSX installation below; if you're on Windows or need a longer walkthrough, Wes Bos has a much more authoritative article on this <a href="http://wesbos.com/css-gutter-color-sublime-text/">here</a> along with some troubleshooting advice in the comments.</p>
 
-<img class="img-reponsive" src="{{ site.baseurl }}/images/sublime-text-gutter-colors.png" alt="Screenshot displaying gutter colors for a Drupal theme CSS file opened in Sublime Text." /> 
+<figure>
+  <img src="/img/sublime-text-gutter-colors.png" alt="Screenshot displaying gutter colors for a Drupal theme CSS file opened in Sublime Text.">
+  <figcaption>Ooooooh. Shiny.</figcaption>
+</figure>
 
-<span class="caption text-muted">Ooooooh. Shiny.</span>
-
-<h2 class="section-heading">Step 1: Install The ImageMagick Library</h2>
+## Step 1: Install The ImageMagick Library
 
 This is simple with <a href="http://brew.sh/">Homebrew</a>. If you don't have Homebrew installed, <em>stop reading this and install it now</em>. Seriously. It's just one copy-paste you're done. All the docs you're going to read for stuff like this will assume you have Homebrew installed, which would be reason enough to grab it, but you should grab it anyway because it's really, really useful. 
 
@@ -30,7 +31,7 @@ $ brew install imagemagick
 
 This got me imagemagick-6.9.5-4, though your version will differ based on what's in the repos when you're reading this. That's it; just wait for it to finish running and you're done. (If you're new to using ruby package managers, don't worry if it seems to do nothing for a long time; it takes a while to get moving.)
 
-<h2 class="section-heading">Step 2: Figure out where one particular file went.</h2>
+## Step 2: Figure out where one particular file went.
 
 <p>You now need the path to one particular conversion script (which is part of the ImageMagick library you just installed): </p>
 
@@ -42,7 +43,7 @@ $ which convert
 
 For me (currently running OSX El Capitan), this was "/usr/local/bin/convert" but use the "which" command to confirm yours before you set this up. For the configuration below, use your path if it's different from mine. Terminal noobs: learning to use "which" is going to save you a lot of pain someday.
 
-<h2 class="section-heading">Sublime Text Configuration</h2>
+## 3: Sublime Text Configuration
 
 Now you're ready to add this to Sublime. For the installation, open Sublime Text, then:
 

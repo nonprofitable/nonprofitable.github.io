@@ -25,9 +25,10 @@ I was looking for the perfect backpack to go with it. Primarily, I wanted someth
 	<li>Indestructable enough to handle rough motorcycle travel in India, ranging from short rides in heavy, dusty traffic to weekend getaways in torrential downpours during the monsoon months to three month expeditions through high altitude mountain passes.</li>
 </ul>
 
-<img class="img-reponsive" src="{{ site.baseurl }}/images/pelican-s100-backpack-review.jpg" alt="Pelican S100 backpack, in black" /> 
-
-<span class="caption text-muted">Image courtesy: pelicancases.com</span>
+<figure>
+  <img src="/img/pelican-s100-backpack-review.jpg" alt="Pelican S100 backpack, in black."
+  <figcaption>Image courtesy pelicancases.com.</figcaption>
+</figure>
 
 First things first: the S100 is a very well-constructed backpack. If this is your first step up from the el cheapo backpack you've been tossing your laptop in since high school, it's a very, very big step. Waterproof zippers, wide and very comfy shoulder straps, and that insane waterproof, dustproof, nukeproof laptop case are all features you didn't know you needed, but will find it very difficult to do without once you've spent a few days with the S100. If you need to write code during the apocalypse, this is your bugout bag. (Note: If you also need to take artsy photographs of the apocalypse, you should check out the S130, which includes a DSLR compartment. I chose the S100 because I wanted the extra space, and don't see myself lugging a DSLR around in the forseeable future.)
 
@@ -41,7 +42,7 @@ Flights are where the S100 really shines. It fits into the overhead compartment,
 
 The Pad & Quill and the S100 are the perfect combination if your travel plans involve flights, coffee shops, and a Macbook Air. 
 
-<h2 class="section-heading">As Motorcycle Gear</h2>
+## As Motorcycle Gear
 
 Motorcycles and backpacks are almost never a good combination. Carrying weight on your back while riding is a good recipe for backaches, and it pretty much guarantees you're not going to be riding any 1,000 mile days. Most of us ride because we love riding, and not merely for transportation; anything that interferes with enjoying a ride tends to be immediately disqualified as motorcycle gear. Any lightweight backpack is fine if you're commuting to an office, but who commutes or has an office these days? 
 
@@ -57,7 +58,7 @@ I did one ride with the S100 mostly empty (about 200 miles) and another 50 mile 
 
  I'm confident that this is as close to India-proof as laptop transportation is going to get, without hindering my mobility much. While I'll also have luggage strapped to the bike for longer expeditions, the S100 is certainly going to be doing its share of motorcycle duty. 
 
-<h2 class="section-heading">So, Where Am I Not Taking It?</h2>
+## So, Where Am I Not Taking It?
 
 This is the part I found missing from most online reviews for the S100, and it meant that I didn't have a complete sense of where it would fit into my travel arsenal till I'd already bought one and had a friend bring it out to Calcutta for me. Now that I've had it a couple of months, I find that I <em>never</em> reach for the S100 when:
 
