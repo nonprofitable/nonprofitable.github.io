@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Jekyll and Cloud 9 Part 2: Launching Local Testing"
+title:      "Jekyll and Cloud 9: Local Testing"
 subtitle:   ""
 tag: [Tutorials, Jekyll, Cloud9] 		
 permalink: "/jekyll-c9-part-2/"
