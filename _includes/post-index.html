@@ -11,6 +11,7 @@
         <div class="content">
           {{ post.description }}
         </div>
+        <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
       {% endfor %}
 
       <!-- Pagination links -->
