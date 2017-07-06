@@ -18,5 +18,6 @@ newAnchor = (removeCharacterAtIndex(input, 0));
 
 $( ".navbar-nav .page-scroll:eq( 1 )").attr( "href", newAnchor);
 
-var test = $( ".navbar-nav .page-scroll").attr( "href" );
-console.log(test);
+// Testing outut:
+// var test = $( ".navbar-nav .page-scroll").attr( "href" );
+// console.log(test);
