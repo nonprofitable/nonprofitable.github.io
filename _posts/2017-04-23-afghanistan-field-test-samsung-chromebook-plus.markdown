@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2017-04-23
 tag: 		[gear, chromebook, Afghanistan]
 permalink: "/afghanistan-samsung-chromebook-plus/"
-description: "New for 2017, the Samsung Chromebook Plus is a surprisingly good teaching tool, even under less-than-ideal conditions in Kabul, Afghanistan."
+description: "New for 2017, the Samsung Chromebook Plus is a surprisingly good teaching and programming tool, even under less-than-ideal conditions in Kabul, Afghanistan."
 image:
   feature: afghanistan-chromebook-field-test.jpg
 ---
@@ -20,13 +20,13 @@ The main drawback for me is personally is the workflow shift; Chromebooks simply
 
 Calcutta Airport forced my hand; they began interpreting Trump's 2017 laptop ban for Middle Eastern airlines to mean that laptops on the Calcutta - Dubai leg of a flight also had to be checked in ...in an unlocked suitcase. Since that's not a risk I'm willing to take with a Macbook, I opted to fly without it and just pick up a new laptop in Washington, DC. Amazon had the Chromebook Plus waiting for me at my brother's place when I landed. 
 
->Note for other flyers: This is not at all necessary. It's completely legal to fly with a laptop in your carry-on bag to Dubai, and once you're there Emirates staff will put it in a padded container and give it back to you when you land in the US or the UK. If you're flying first or business class, they'll even give you a loaner laptop for the flight, and their in-flight entertainment is top-notch; *almost* good enough to make you not miss your laptop / tablet overly much. 
+>Note for other travelers: This is not at all necessary. It's completely legal to fly with a laptop in your carry-on bag to Dubai, and once you're there Emirates staff will put it in a padded container and give it back to you when you land in the US or the UK. If you're flying first or business class, they'll even give you a loaner laptop for the flight, and their in-flight entertainment is top-notch; *almost* good enough to make you not miss your laptop / tablet overly much. 
 
 I was curious as to how well one would function in a bandwidth-starved environment. I've been lucky for the past couple of years; even on the beach in Goa or in the mountains in Darjeeling, I've always been able to find wifi or run a hotspot from my phone. Afghanistan is different; there are frequent power and bandwidth outages here, and the security situation makes it impossible to wander out of the compound to go looking for a cafe. 
 
 ## The Good
 
-I used the Chromebook for two main deliverables on this project: developing training materials and as a classroom teaching tool and support device. 
+I used the Chromebook for two main deliverables on this project: developing training materials and as a classroom teaching tool and support device. I've also used Chromebooks (both this one and its predecessor) to author quite a bit of code, ranging from the front-end for this site to my usual work building things in Drupal and writing Drupal themes.
 
 I found it surprisingly capable as a content creation tool. Mature integration with the tried-and-tested Google Docs for creating documents was expected, but I didn't realize how much of a difference the screen would make. *This screen is one of the best I've seen on a laptop, period (let alone other Chromebooks).* The aspect ratio is also extremely easy to work with. It took me a couple of hours to get completely used to the size, and the pixel density is a joy to work with. It took slightly longer to get used to the keyboard, but I was easily typing as quickly and accurately as on my Macbook within a day or so. 
 
@@ -57,9 +57,11 @@ I haven't had the chance to explore much of the Android integration on this Chro
 
 ## The Not-So-Good
 
-While there's nothing I disliked about the Chromebook Plus, there were a couple of things I wasn't completely happy with. One is how easily the silver gray finish scratches; mine's already picked up a few in the first month of use. Granted, I'm not putting this through anything like "typical" use, and I'm sure Samsung didn't plan to build a premium laptop that's going to be tossed into a tactical vest while the customer goes running around Afghanistan trying not to look like a target. If you're a more "normal" student, professional (or web developer), or home user, this is likely not an issue. 
+While there's nothing I disliked about the Chromebook Plus, there were a couple of things I wasn't completely happy with. One is how easily the silver gray finish scratches; mine's already picked up a few in the first month of use. Granted, I'm not putting this through anything like "typical" use, and I'm sure Samsung didn't plan to build a premium laptop that's going to be tossed into a tactical vest while the customer goes running around Afghanistan in an armored vehicle. If you're a more "normal" student, professional (or web developer), or home user, this is likely not an issue. 
 
-The second thing I'd like to see improved is the battery life. While I haven't had it run dry on me in Afghanistan and it'll last a day of class with a little juice to spare, that's under very light use. In Washington, when I was cranking out training materials at the FHI offices or in coffee shops, I needed to carry a charger most of the time. This is mitigated by the fact that the charger's tiny; USB C means that the charger's a little larger than a cell phone charger, so it's not painful to toss in the vest when I know I'll be working remotely for a day. 
+The second thing I'd like to see improved is the battery life. While I haven't had it run dry on me in Afghanistan and it'll last a day of class with a little juice to spare, that's under very light use. In Washington, when I was cranking out training materials at the FHI offices or in coffee shops, I needed to carry a charger most of the time. This is mitigated by the fact that the charger's tiny; USB C means that the charger's a little larger than a cell phone charger, so it's not painful to toss in the vest when I know I'll be working remotely for a day.
+
+*It also charges from a battery pack.* Why do all laptops not do this? Hopefully, with USB-C, this is going to be more of a thing.  
 
 And, lastly: the lack of crouton support. This was almost a dealbreaker for me; the lack of crouton (and this particular processor) almost made me grab a regular laptop and install Ubuntu on it instead. There are several contenders in this price range, though none with a comparable build quality. I elected to go with the Plus knowing I woudn't be able to fall back on an Ubuntu installation in an emergency; the decision was made a little easier after my experience with the Toshiba Chromebook 2, where I can't remember the last time I had to drop back to crouton to get something done. 
 
