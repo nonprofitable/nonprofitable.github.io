@@ -1,14 +1,5 @@
-# Creative Theme for Jekyll
+# Nonprofitable.org
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+This repository holds the codebase for the 2017 relaunch of the Nonprofitable.org website. This is the second Jekyll incarnation of the project; it was migrated from Drupal 7 in late '15. There's a lot of site-specific CSS here, loosely based on the Creative Theme; if anyone is interested in reusing the design, let me know and I'll try to spin off a standalone theme when I've got some spare time.
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
-
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
-
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
-
+Custom CSS is in base.scss. 
