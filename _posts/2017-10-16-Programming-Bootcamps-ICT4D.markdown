@@ -28,6 +28,6 @@ I recently came across two programming bootcamps who are doing just this, in wil
 
 Since I get one or two surprised looks when I mention US-based projects in a conversation on ICT4D, I'll clarify here: there are "developing" neighborhoods, cities, and states across most first world nations. This is certainly true of the United States, where the economic recovery has been tightly restricted to urban, mobile, educated populations, while leaving much of rural America (95% of the country by geographic area) and urban minority populations (the entire south side of Chicago, for example) behind. ICT4D projects have as much of a contextual fit in Queens as they do in Calcutta.  
 
-## Elsewhere
+## South Asia
 
 I'm interested in applying similar models for economic development projects in other parts of the world. Countries such as Bangladesh and India (where I'm typing this) are seeing an influx of refugees as a result of Burma's Rohingya genocide. Given the region's constant hunger for IT professionals, would a bootcamp teaching English language and basic Wordpress development offer opportunities for placing refugees in local companies in IT hubs like Bangalore or Gurgaon, while making a compelling case that more countries should offer legal immigration options for refugees? I've scheduled a couple of conversations with the Global Director of a university here to explore bootcamp options in a little more detail, and see where they might fit into a South Asian context.  
