@@ -18,3 +18,12 @@ if (checkHome()) {
 // Testing outut:
 // var test = $( ".navbar-nav .page-scroll").attr( "href" );
 // console.log(test);
+
+//Remove big header cover image and links for post listing pages that aren't the homepage. 
+//Only remove .header-content if it is the parent of a .header-content-inner. 
+//Remove unused body "front" class. 
+
+if (!checkHome()) {
+    $(".header-content .header-content-inner").parent().remove();
+    $("body").removeClass("front");
+}
