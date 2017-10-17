@@ -1,6 +1,6 @@
 // Rebuild two nav links for prettier scrolling when at the homepage.
 
-function checkHome {
+function checkHome () {
     return location.pathname == "/";    
 }
 
